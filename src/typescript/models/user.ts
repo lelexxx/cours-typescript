@@ -24,17 +24,17 @@ export default class User {
         return this;
     }
 
-    //getter standart, accessible en JS classique depuis ES2015
+    //getter standart par défaut public, indtroduit en JS classique depuis ES2015
     get firstName(){
         return this._firstName;
     }
 
-    //getter standart, accessible en JS classique depuis ES2015
+    //getter standart par défaut public, indtroduit en JS classique depuis ES2015
     get lastName(){
         return this._lastName;
     }
 
-    //getter standart, accessible en JS classique depuis ES2015
+    //getter standart par défaut public, indtroduit en JS classique depuis ES2015
     get isAdmin(){
         return this._isAdmin;
     }

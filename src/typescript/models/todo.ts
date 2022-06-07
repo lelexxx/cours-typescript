@@ -14,17 +14,17 @@ export default class Todo {
         this._isDone = isDone;
     }
 
-    //setter standart, accessible en JS classique depuis ES2015
+    //setter standart par défaut public, indtroduit en JS classique depuis ES2015
     set isDone(isDone: boolean){
         this._isDone = isDone;
     }
 
-    //getter standart, accessible en JS classique depuis ES2015
+    //getter standart par défaut public, indtroduit en JS classique depuis ES2015
     get isDone(): boolean{
         return this._isDone;
     }
 
-    //getter standart, accessible en JS classique depuis ES2015
+    //getter standart par défaut public, indtroduit en JS classique depuis ES2015
     get label(): string{
         return this._label;
     }
