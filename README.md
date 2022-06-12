@@ -1,9 +1,14 @@
-## Installation
+## Installation de Webpack (from scratch)
+
+> npm --save-dev install webpack webpack-cli<br/>
+> npm --save-dev install typescript ts-loader
+
+## Lancement depuis le repo
 
 > npm install
 > npx webpack
 
-Vous pouvez utiliser l'option `--watch` afin de compiler vos fichiers scss à chaque sauvegarde.
+Vous pouvez utiliser l'option `--watch` afin de compiler vos fichiers typescript à chaque sauvegarde.
 
 ## Ressources
 
