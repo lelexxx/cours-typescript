@@ -1,10 +1,12 @@
 'use strict';
 
 import Constants from '../constants'
+import User from './user';
 
 export default class Todo {
     private _label: string; //par défaut les attributs sont 'public'
     private _isDone: boolean;
+    private _doneBy: User;
 
     //constructeur
     constructor(label: string)
@@ -29,9 +31,18 @@ export default class Todo {
         return this._label;
     }
 
+    //getter standart par défaut public, indtroduit en JS classique depuis ES2015
+    get doneBy(): User{
+        return this._doneBy;
+    }
+
     //méthode fluent
-    public close(): Todo {
+    public close(user: User): Todo {
+        if(this._isDone)
+            return this;
+
         this._isDone = true;
+        this._doneBy = user;
 
         return this;
     }

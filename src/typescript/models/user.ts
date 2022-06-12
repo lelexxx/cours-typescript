@@ -25,17 +25,17 @@ export default class User {
     }
 
     //getter standart par défaut public, indtroduit en JS classique depuis ES2015
-    get firstName(){
+    get firstName(): string{
         return this._firstName;
     }
 
     //getter standart par défaut public, indtroduit en JS classique depuis ES2015
-    get lastName(){
+    get lastName(): string{
         return this._lastName;
     }
 
     //getter standart par défaut public, indtroduit en JS classique depuis ES2015
-    get isAdmin(){
+    get isAdmin(): boolean{
         return this._isAdmin;
     }
 }
