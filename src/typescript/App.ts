@@ -12,7 +12,7 @@ todo.close(user);
 let todos = todoService.addTodo(todo).todos;
 console.log(todos);
 
-console.log(todoService.delete(todo, user));
-console.log(todoService.delete(todo, admin));
+console.log(todoService.deleteTodo(todo, user));
+console.log(todoService.deleteTodo(todo, admin));
 todos = todoService.todos;
 console.log(todos);

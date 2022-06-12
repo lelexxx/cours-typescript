@@ -12,7 +12,7 @@ export default class TodoService {
         return this;
     }
 
-    public delete(todo: Todo, user: User): boolean {
+    public deleteTodo(todo: Todo, user: User): boolean {
         if(!user.isAdmin) //utilisation du getter défini dans la classe User
             return false;
 
