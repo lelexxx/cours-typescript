@@ -1,3 +1,12 @@
+# Typesccript
+
+## Présentation
+
+TypeScript est un sur-ensemble (superset) à JavaScript. C'est à dire qu'il apporte de nouvelles fonctionnalités aux langages Javascript et 
+que tout programme JavaScript opérationnel l'est aussi en TypeScript. Les principales fonctionnalités apportées par TS sont :
+* le typage statique/explicite
+* la création de classe et d'interfaces
+
 ## Installation de Webpack (from scratch)
 
 > npm --save-dev install webpack webpack-cli<br/>
