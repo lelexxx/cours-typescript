@@ -1,4 +1,12 @@
 {
+    "name": "cours-typescript",
+    "description": "Sample repository to present TypeScript to students.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lelexxx/cours-typescript.git"
+    },
+    "author": "Alexandre Ruiz <rruiz.alex@gmail.com>",
+    "keywords": ["cours", "teach", "typescript"],
     "devDependencies": {
         "ts-loader": "^9.3.0",
         "typescript": "^4.6.4",
