@@ -11,14 +11,14 @@ export default class User {
     }
 
     //setter fluent
-    public setFristName(firstName: string): User{
+    public stFirstName(firstName: string): this{
         this._firstName = firstName;
 
         return this;
     }
 
     //setter fluent
-    public setLastName(lastName: string): User{
+    public setLastName(lastName: string): this{
         this._lastName = lastName;
 
         return this;

@@ -6,7 +6,7 @@ import User from '../models/user';
 export default class TodoService {
     private _todos: Todo[] = [];
 
-    public addTodo(todo: Todo): TodoService {
+    public addTodo(todo: Todo): this {
         this._todos.push(todo);
 
         return this;

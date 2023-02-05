@@ -1,6 +1,6 @@
 'use strict';
 
-import Constants from '../constants'
+import Constants from '../constants';
 import User from './user';
 
 export default class Todo {
@@ -37,7 +37,7 @@ export default class Todo {
     }
 
     //méthode fluent
-    public close(user: User): Todo {
+    public close(user: User): this {
         if(this._isDone)
             return this;
 
